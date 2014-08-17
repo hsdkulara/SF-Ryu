@@ -1,0 +1,68 @@
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  background-color: black;
+}
+ 
+.main {
+  background-color: white;
+  margin-top: 110px;
+  min-width: 1200px;
+  padding-left: 100px;
+  height: 500px;
+}
+
+.instruct {
+	max-width: 200px;
+	font-weight: bold;
+	font-family: 'Oswald', Sans-serif;
+	position: relative;
+	padding-top: 150px;
+	margin-right: 150px;
+	text-align: center;
+	float: right;
+	line-height: 25px;
+}
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-rad {
+	background-repeat: no-repeat;
+}
+
+.hadouken {
+	background-image: url('../images/hadouken.gif');
+	width: 156px;
+	height: 90px;
+	display: none;
+	position: relative;
+	top: 167px;
+	left: -212px;
+	float: left;
+}
+
+.ryu {
+	float: left;
+}
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-rad {
+	width: 659px;
+	height:494px;
+}
+
+.ryu-ready, .ryu-throwing, .ryu-rad {
+	display: none;
+}
+
+.ryu-ready {
+	background-image: url('../images/ryu-ready-position.gif');
+}
+
+.ryu-still {
+	background-image: url('../images/ryu-standing-still.png');
+}
+
+.ryu-throwing {
+	background-image: url('../images/ryu-throwing-hadouken.png');
+}
+
+.ryu-rad {
+	background-image: url('../images/ryu-cool.gif');
+}
